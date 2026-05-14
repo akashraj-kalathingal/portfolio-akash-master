@@ -173,7 +173,7 @@ function AiDiagram() {
 
       {/* User */}
       <Box x={20} y={150} title="Retail Investor" sub="Customer" />
-      {/* LLM Agent */}
+      {/* AI Chatbot */}
       <Box x={210} y={150} title="LLM Agent" sub="Claude / GPT" accent />
       {/* MCP Server */}
       <Box x={400} y={150} title="MCP Server" sub="Java + Spring Boot" accent />

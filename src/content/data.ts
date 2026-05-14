@@ -8,7 +8,7 @@ export const profile = {
   github: "https://github.com/akashraj11",
   linkedin: "https://www.linkedin.com/in/akashrajkalathingal/",
   portfolioLegacy: "https://akashraj-kalathingal-portfolio.netlify.app",
-  resumeUrl: "/Akashraj_Kalathingal_Resume.pdf",
+  resumeUrl: "/resume.docx",
   yearsExperience: 6,
 };
 
