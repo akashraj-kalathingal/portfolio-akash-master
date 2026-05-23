@@ -8,7 +8,7 @@ export const profile = {
   github: "https://github.com/akashraj11",
   linkedin: "https://www.linkedin.com/in/akashrajkalathingal/",
   portfolioLegacy: "https://akashraj-kalathingal-portfolio.netlify.app",
-  resumeUrl: "/resume.docx",
+  resumeUrl: "/Akashraj_Kalathingal_Resume_Master.pdf",
   yearsExperience: 6,
 };
 
@@ -278,7 +278,7 @@ export const awards = [
 
 export const snapshot = {
   yearsExperience: "6+",
-  productionScale: "Billions $/day",
+  productionScale: "Petabyte-scale",
   cloudPlatforms: "AWS · Azure · GCP",
   primaryLanguages: "Java · TypeScript · Python",
 };

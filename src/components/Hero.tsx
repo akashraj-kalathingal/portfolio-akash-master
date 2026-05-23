@@ -136,7 +136,7 @@ export default function Hero() {
             className="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/40 px-5 py-2.5 text-sm font-medium text-white backdrop-blur-md transition-colors hover:border-[var(--color-accent)]/60"
           >
             <ArrowDownToLine className="h-4 w-4" />
-            Download résumé
+            Download Resume
           </a>
           <a
             href={profile.github}

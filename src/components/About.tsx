@@ -31,7 +31,7 @@ export default function About() {
               <StatCell label="Years building" value="6+" numericTo={6} suffix="+" />
               <StatCell label="Tier-1 banks" value="2" numericTo={2} />
               <StatCell label="Cloud platforms" value="AWS · Azure · GCP" />
-              <StatCell label="Production scale" value="Billions $/day" />
+              <StatCell label="Data orchestrated" value="Petabyte-scale" />
             </div>
           </Reveal>
         </div>
