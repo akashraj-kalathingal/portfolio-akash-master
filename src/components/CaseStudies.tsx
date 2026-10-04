@@ -13,7 +13,7 @@ export default function CaseStudies() {
     <Section
       id="case-studies"
       label="03 / Case Studies"
-      title="Three projects, written like engineering."
+      title="Four projects, written like engineering."
     >
       <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
         {/* Tab rail */}

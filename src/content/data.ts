@@ -14,7 +14,7 @@ export const profile = {
 
 export const summary = [
   "Senior full-stack engineer with 6+ years building high-scale, mission-critical systems across banking, payments, and enterprise data platforms.",
-  "Currently building an LLM-powered financial advisory chatbot at BMO using Java microservices, MCP tools, and Azure-backed RAG pipelines. Previously led ISO 20022 modernization at Scotiabank for high-value wire payments processing billions of dollars in daily volume.",
+  "Currently a Senior Full Stack Engineer at RBC, setting up Java 25 / Spring Boot 4.x microservices from scratch and enabling new and existing repositories for the AI Development Life Cycle (AI-DLC) as a core architect on the enterprise Agentic Lab. Previously built an LLM-powered financial advisory chatbot at BMO using Java microservices, MCP tools, and Azure-backed RAG pipelines, and led ISO 20022 modernization at Scotiabank for high-value wire payments processing billions of dollars in daily volume.",
   "I write the design doc, ship the service, own the on-call rotation, and mentor the next engineer.",
 ];
 
@@ -26,6 +26,7 @@ export const expertise = [
   "Cloud Native (AWS, Azure, OCP)",
   "Event-Driven Architecture",
   "LLM & RAG Platforms",
+  "Agentic AI & AI-DLC",
   "Payments Infrastructure",
 ];
 
@@ -36,6 +37,7 @@ export const rotatingTitles = [
   "Microservices at Scale",
   "System Design",
   "AI / LLM Platforms",
+  "Agentic Development (AI-DLC)",
   "Payments Infrastructure",
   "Performance Engineering",
 ];
@@ -55,11 +57,36 @@ export type Role = {
 
 export const experience: Role[] = [
   {
+    company: "Royal Bank of Canada (RBC)",
+    companyShort: "RBC",
+    role: "Senior Full Stack Engineer — Consumer Banking & Enterprise Agentic Lab",
+    start: "Jul 2026",
+    end: "Present",
+    location: "Toronto, ON",
+    blurb:
+      "Building greenfield Java 25 / Spring Boot 4.x microservices for the Consumer Banking investment platform, and helping lead the enterprise Agentic Lab's move to the AI Development Life Cycle (AI-DLC).",
+    highlights: [
+      "Set up multiple backend microservices from scratch on Java 25 and Spring Boot 4.x, running on Liberty server and OpenShift, with custom REST APIs, end-to-end Spring Security, and Resilience4j circuit breakers and retries.",
+      "Work within the AI Development Life Cycle (AI-DLC), the new AI-native model of software delivery, and enabled both new and existing repositories for AI-DLC through agentic repo setup so teams adopt it consistently.",
+      "Selected as a core architect for the enterprise Agentic Lab: designed and deployed reusable AI agents, custom skills, and optimized workflows, and standardized LLM prompt and token strategies for cost efficiency.",
+      "Implemented scheduled background processing with Spring Scheduler and ShedLock for single-node execution across service instances, with service data persisted in MongoDB.",
+      "Built API integrations with downstream enterprise services and designed MapStruct mapping layers to translate schemas between upstream contracts and downstream systems.",
+      "Spearheaded integration of the Investment Account Opening flow into the core Consumer Banking platform across web and mobile journeys, and decoupled legacy monolithic business logic into isolated microservices.",
+      "Hardened investment backend services by resolving critical vulnerabilities surfaced through SAST, SCA, and LLM static-analysis scans.",
+    ],
+    stack: ["Java 25", "Spring Boot 4.x", "Spring Scheduler", "ShedLock", "Spring Security", "Resilience4j", "MapStruct", "MongoDB", "Liberty", "OpenShift", "AI-DLC", "GitHub Copilot", "Windsurf"],
+    scale: [
+      { label: "Services built from scratch", value: "Multiple" },
+      { label: "Delivery model", value: "AI-DLC" },
+      { label: "Runtime", value: "Java 25 · Boot 4.x" },
+    ],
+  },
+  {
     company: "Bank of Montreal (BMO)",
     companyShort: "BMO",
     role: "Senior Software Engineer — AdviceDirect & AI Advisory Platform",
     start: "Apr 2025",
-    end: "Present",
+    end: "Jul 2026",
     location: "Toronto, ON",
     blurb:
       "Building BMO InvestorLine's AI-powered financial advisory chatbot — Java microservices exposing banking capabilities as MCP tools for LLM RAG pipelines.",
@@ -149,11 +176,11 @@ export const experience: Role[] = [
 export const skills = [
   {
     category: "Languages",
-    items: ["Java (8/11/17)", "TypeScript", "JavaScript", "Python", "SQL", "Scala", "GraphQL"],
+    items: ["Java (8/11/17/25)", "TypeScript", "JavaScript", "Python", "SQL", "Scala", "GraphQL"],
   },
   {
     category: "Backend & Frameworks",
-    items: ["Spring Boot", "Spring MVC", "Spring Batch", "REST", "gRPC", "Kafka", "OAuth2 / JWT", "JPA / Hibernate"],
+    items: ["Spring Boot (3.x / 4.x)", "Spring MVC", "Spring Batch", "Spring Scheduler", "ShedLock", "Spring Security", "Resilience4j", "MapStruct", "REST", "gRPC", "Kafka", "OAuth2 / JWT", "JPA / Hibernate"],
   },
   {
     category: "Frontend",
@@ -161,7 +188,7 @@ export const skills = [
   },
   {
     category: "Cloud & Infra",
-    items: ["AWS (EKS, S3, Lambda)", "Azure", "GCP", "Kubernetes", "OpenShift", "Docker", "Ansible", "HashiCorp Vault"],
+    items: ["AWS (EKS, S3, Lambda)", "Azure", "GCP", "Kubernetes", "OpenShift", "Liberty Server", "Docker", "Ansible", "HashiCorp Vault"],
   },
   {
     category: "Data & Storage",
@@ -169,7 +196,7 @@ export const skills = [
   },
   {
     category: "AI / ML Platforms",
-    items: ["LLM RAG Pipelines", "MCP (Model Context Protocol)", "Vector Embeddings", "Kedro", "Azure Document Intelligence", "scikit-learn"],
+    items: ["Agentic AI Development", "AI-DLC (AI Development Life Cycle)", "Agentic Repo Enablement", "Spec-Driven Development", "GitHub Copilot", "Windsurf", "LLM RAG Pipelines", "MCP (Model Context Protocol)", "Vector Embeddings", "Kedro", "Azure Document Intelligence", "scikit-learn"],
   },
   {
     category: "DevOps & CI/CD",
@@ -187,9 +214,30 @@ export const skills = [
 
 export const caseStudies = [
   {
+    slug: "agentic-ai-dlc",
+    title: "Enterprise Agentic Lab & AI-DLC Enablement",
+    subtitle: "RBC • 2026–Present",
+    summary:
+      "Core architect on RBC's enterprise Agentic Lab: reusable AI agents, custom skills, and agentic repo setup that moves new and existing codebases onto the AI Development Life Cycle (AI-DLC), alongside greenfield Java 25 / Spring Boot 4.x microservices.",
+    problem:
+      "Teams were adopting AI coding tools unevenly, with inconsistent prompts, rising token costs, and no shared way of working. Legacy and new repositories each needed to be ready for an AI-native delivery model without slowing down feature work.",
+    approach: [
+      "Designed and deployed reusable AI agents, custom skills, and optimized workflows that teams across the enterprise can adopt as-is.",
+      "Enabled new and existing repositories for AI-DLC through agentic repo setup, so the same workflow applies from day one on greenfield services and retrofits onto legacy code.",
+      "Standardized LLM prompt and token strategies and integrated GitHub Copilot and Windsurf across multiple LLM backends to support Spec-Driven Development, documentation, and architecture planning.",
+      "Applied the same model to real delivery: set up multiple Spring Boot 4.x microservices from scratch with Spring Security, Resilience4j, MapStruct schema mapping, downstream API integration, and Spring Scheduler with ShedLock over MongoDB.",
+    ],
+    impact: [
+      "A repeatable AI-DLC setup that new and existing repositories can adopt consistently.",
+      "Lower LLM cost and faster cross-team development through shared prompt and token standards.",
+      "Several production-ready microservices stood up on a modern Java 25 / Spring Boot 4.x baseline.",
+    ],
+    stack: ["Java 25", "Spring Boot 4.x", "Spring Scheduler", "ShedLock", "MongoDB", "Resilience4j", "MapStruct", "Liberty", "OpenShift", "GitHub Copilot", "Windsurf"],
+  },
+  {
     slug: "ai-banking-chatbot",
     title: "AI-Powered Financial Advisory Chatbot",
-    subtitle: "BMO InvestorLine • 2025–Present",
+    subtitle: "BMO InvestorLine • 2025–2026",
     summary:
       "Customer-facing AI chatbot for personalized investment advice across BMO retail accounts. Java microservices expose banking APIs as MCP tools consumed by the LLM, with a Kedro + Azure Document Intelligence ingestion layer powering RAG.",
     problem:

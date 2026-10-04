@@ -70,7 +70,7 @@ export default function Footer() {
                 Currently
               </div>
               <p className="mt-3 text-pretty text-sm leading-relaxed text-[var(--color-fg-muted)]">
-                Senior Software Engineer at BMO, building AI-powered banking. Available for new
+                Senior Full Stack Engineer at RBC, building banking microservices and enterprise agentic AI tooling. Available for new
                 conversations starting Q3 2026.
               </p>
               <div className="mt-6 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--color-fg-subtle)]">

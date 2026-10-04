@@ -11,7 +11,8 @@ const arc = [
   { year: "2022", co: "Target", note: "Promoted to Senior Software Engineer", highlight: true },
   { year: "2023", co: "Conestoga", note: "PG Cert — High Distinction · Dean's List" },
   { year: "2024", co: "Scotiabank", note: "ISO 20022 wire payment modernization lead", highlight: true },
-  { year: "2025", co: "BMO", note: "Building AI-powered banking advisory", highlight: true },
+  { year: "2025", co: "BMO", note: "Built AI-powered banking advisory", highlight: true },
+  { year: "2026", co: "RBC", note: "Core architect on Agentic Lab · AI-DLC enablement", highlight: true },
 ];
 
 export default function About() {
@@ -29,7 +30,7 @@ export default function About() {
           <Reveal delay={0.25}>
             <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.06] sm:grid-cols-4">
               <StatCell label="Years building" value="6+" numericTo={6} suffix="+" />
-              <StatCell label="Tier-1 banks" value="2" numericTo={2} />
+              <StatCell label="Tier-1 banks" value="3" numericTo={3} />
               <StatCell label="Cloud platforms" value="AWS · Azure · GCP" />
               <StatCell label="Data orchestrated" value="Petabyte-scale" />
             </div>

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: `%s — ${profile.name}`,
   },
   description:
-    "Senior Software Engineer building distributed systems, AI platforms, and payments infrastructure. BMO · Scotiabank · Target.",
+    "Senior Software Engineer building distributed systems, AI platforms, and payments infrastructure. RBC · BMO · Scotiabank · Target.",
   openGraph: {
     type: "website",
     title: `${profile.name} — ${profile.title}`,
